@@ -4,6 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="icon" type="image" href="images/favicon.png">
   </head>
-  <body></body>
+  <body>
+    
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li id="name">Patchanop Rodklueng</li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="cloud" id="cloud1"></div>
+    <div class="cloud" id="cloud2" style="position: absolute; left: 80%; top: 60%;"></div>
+    <div class="cloud" id="cloud3" style="position: absolute; left: 40%; top: 20%;"></div>
+    <div class="cloud" id="cloud4" style="position: absolute; left: 90%; top: 2%;"></div>
+    <div class="cloud" id="cloud5" style="position: absolute; left: 30%; top: 80%;"></div>
+
+
+    <main>
+      <div class="container" style="flex-direction: column;" id="profile">
+
+        <h3 class="title">My Profile</h3>
+
+          <div class="profile-box">
+            <img class="profile-image" src="images/profile1.jpg" alt="Profile Picture">
+
+            <div class="profile-details" >
+                <pre style="font-family: Nunito;" class="text">     <b style="font-size: 1.5em; color: #ee4e4e; text-shadow: 0 0 3px black;">Hello!</b> My name is Patchanop Rodkleung.
+Nickname: Fluke       Date of birth: 23 October 2004
+BloodType: O            Religion: Buddhist
+Nationality: Thai 
+
+     <b style="color: #ee4e4e; text-shadow: 0 0 3px black; font-size: 1.5em;">Skills</b>
+I can code in C++, Python, Html, Css and Javascript!
+I can also do graphic design.
+            </pre>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+ 
+  </body>
 </html>
